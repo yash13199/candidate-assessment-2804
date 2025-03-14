@@ -4,10 +4,9 @@
   "private": true,
   "scripts": {
     "deploy": "node scripts/deploy.js",
-    "dev": "next dev",
     "build": "npx hardhat compile && next build",
-    "start": "concurrently \"npx hardhat compile\" \"npm run deploy\" \"npm run dev\"",
-    "start:next": "next start",
+    "dev": "concurrently \"npx hardhat compile\" \"npm run deploy\" \"next dev\"",
+    "start": "next start",
     "lint": "next lint"
   },
   "engines": {
