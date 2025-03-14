@@ -47,19 +47,12 @@ yarn
 
 ```sh
 npx hardhat compile
-npm run deploy
 ```
 
 3. Start the app
 
 ```
 npm run dev
-```
-
-4. All in one (Optional)
-
-```
-npm start
 ```
 
 ### Configuration (Optional)
