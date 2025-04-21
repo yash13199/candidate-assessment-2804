@@ -31,7 +31,7 @@ To run this project locally, follow these steps.
 1. Clone the project locally, change into the directory, and install the dependencies:
 
 ```sh
-git clone https://github.com/XedgeIT/paybymint-marketplace.git
+git clone https://github.com/Xcel-Edge-IT/paybymint-marketplace.git
 
 cd paybymint-marketplace
 
