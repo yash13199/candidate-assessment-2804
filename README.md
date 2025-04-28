@@ -31,9 +31,9 @@ To run this project locally, follow these steps.
 1. Clone the project locally, change into the directory, and install the dependencies:
 
 ```sh
-git clone https://github.com/Xcel-Edge-IT/paybymint-marketplace.git
+git clone https://github.com/Xcel-Edge-IT/candidate-assessment-2804.git
 
-cd paybymint-marketplace
+cd candidate-assessment-2804
 
 # install using NPM or Yarn
 npm install
@@ -43,13 +43,7 @@ npm install
 yarn
 ```
 
-2. Start the local Hardhat
-
-```sh
-npx hardhat compile
-```
-
-3. Start the app
+2. Start the app
 
 ```
 npm run dev
