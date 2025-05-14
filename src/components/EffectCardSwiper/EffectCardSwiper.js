@@ -16,7 +16,7 @@ const EffectCardSwiper = ({ items }) => {
     const navigationPrevRef = useRef(null);
     const navigationNextRef = useRef(null);
     return (
-        <div className="relative w-[80vw] md:w-fit">
+        <div className="relative flex items-center justify-center w-[80vw] md:w-fit">
             <div
                 ref={navigationPrevRef}
                 className={styles.swiperButtonPrev}

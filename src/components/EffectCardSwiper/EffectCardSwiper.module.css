@@ -1,14 +1,16 @@
 .swiperButtonNext,
 .swiperButtonPrev {
-    @apply absolute z-20 flex items-center justify-center w-16 h-16 rounded-full cursor-pointer top-1/2;
+    @apply absolute z-40 flex items-center justify-center w-16 h-16 rounded-full cursor-pointer top-1/2;
     background: rgba(143, 131, 131, 0.2);
     backdrop-filter: blur(18px);
-    transform: translateY(-50%)
+    transform: translateY(-175%);
+    
+    
 }
 .swiperButtonNext {
-    @apply right-0 md:-right-8;
+    @apply right-4 md:right-72;
 }
 
 .swiperButtonPrev {
-    @apply left-0 md:-left-8;
+    @apply left-0 md:-left-96;
 }
